@@ -1,0 +1,13 @@
+Resources:
+  MyS3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: "my-demo-bucket-[your initials]"
+
+  MyEC2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      InstanceType: "t2.micro"
+      ImageId: !Ref "AWS::Region"  # AMI will be selected based on the region
+      KeyName: "your-key-pair-name"  # Replace with the key pair name you created
+

@@ -2,7 +2,7 @@ Resources:
   MyS3Bucket:
     Type: "AWS::S3::Bucket"
     Properties:
-      BucketName: "my-demo-bucket-[your initials]"
+      BucketName: "my-demo-bucket-mo"
 
   MyEC2Instance:
     Type: "AWS::EC2::Instance"

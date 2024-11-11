@@ -9,6 +9,19 @@ This project demonstrates an AWS cloud architecture setup using [S3, EC2& CloudF
 
 ## Project Components
 
+## Code and Configuration
+
+### CloudFormation Template
+This project includes a CloudFormation template (`template.yaml`) that automates the setup of an S3 bucket and an EC2 instance.
+
+- **S3 Bucket**: Creates an Amazon S3 bucket for storage.
+- **EC2 Instance**: Deploys an Amazon EC2 instance with a specified key pair for SSH access.
+
+To deploy this template:
+1. Download the `template.yaml` file.
+2. Go to the AWS Console, open the **CloudFormation** service, and create a new stack.
+3. Upload `template.yaml` and follow the prompts to deploy the resources.
+
 ### S3 Bucket
 This project includes an Amazon S3 bucket that serves as a foundational component for storing data and assets. Below are the setup details:
 

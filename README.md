@@ -5,7 +5,8 @@ Demo project for AWS architecture using CloudFormation and S3
 This project demonstrates an AWS cloud architecture setup using [S3, EC2& CloudFormation]. The goal of this project is to [briefly describe the purpose, like automate infrastructure deployment].
 
 ## Architecture Diagram
-![image](https://github.com/user-attachments/assets/2e0928ca-fb5a-41b2-a3ec-4d527dbf7db0)
+![AWS Architecture](https://github.com/user-attachments/assets/0ecc42ae-9240-4255-93a4-23a68db5415b)
+
 
 ## Project Components
 

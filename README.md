@@ -1,4 +1,4 @@
-# aws-architecture-project
+# aws-Static-Web-page-project
 Demo project for AWS architecture using CloudFormation and S3
 
 ## Project Overview
